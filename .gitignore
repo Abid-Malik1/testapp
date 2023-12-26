@@ -4,7 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-.yarn/install-state.gz
+react-email/node_modules/
 
 # testing
 /coverage
@@ -12,6 +12,7 @@
 # next.js
 /.next/
 /out/
+.react-email
 
 # production
 /build
@@ -27,10 +28,13 @@ yarn-error.log*
 
 # local env files
 .env*.local
-
+.env
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# others
+.husky
